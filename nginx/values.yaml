@@ -1,6 +1,6 @@
 deployment:
-  imageversion: stable-perl
-  replicas: 4
+  imageversion: alpine
+  replicas: 3
 
 
 service:
