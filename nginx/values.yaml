@@ -1,6 +1,6 @@
 deployment:
-  imageversion: latest
-  replicas: 2
+  imageversion: stable-perl
+  replicas: 4
 
 
 service:
