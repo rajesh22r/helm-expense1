@@ -3,3 +3,8 @@ deployment:
   replicas: 2
 
 
+hpa:
+ cpuutilization: 15
+
+
+
