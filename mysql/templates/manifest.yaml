@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: rajesh2219/mysql:{{ Values.deployment.imageVersion }}
+        image: rajesh2219/mysql:{{ .Values.deployment.imageVersion }}
 
 ---
 kind: Service
